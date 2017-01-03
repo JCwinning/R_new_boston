@@ -92,9 +92,49 @@
 # x[2]
 
 # R Programming Tutorial - 13 - Lists
-Tony_list=list(71,"hello",x)
-class(Tony_list)  
-names(Tony_list)=c('num','word','thisisdata') 
+# Tony_list=list(71,"hello",x)
+# class(Tony_list)  
+# names(Tony_list)=c('num','word','thisisdata') 
   
-  
-  
+# R Programming Tutorial - 14 - Matrix
+# matrix001=matrix(1:50,nrow=5)
+# matrix001
+
+# R Programming Tutorial - 15 - How to Read CSV Files
+
+# getwd()
+# tuna=read.csv("brUsers.csv")
+# class(tuna)
+# head(tuna)
+# R Programming Tutorial - 16 - How to Install Packages
+
+
+# library(XML)
+# item=readHTMLTable("http://www.w3schools.com/html/html_tables.asp",which=1)
+# item
+# R Programming Tutorial - 17 - Charts and Graphics
+# data=read.csv("brUsers.csv")
+# head(data)
+# hist(data$age,main="ages",ylab="users",xlab='age')
+# hist(data$age)
+# plot(data$age,data$income)
+# boxplot(data$age)
+
+# R Programming Tutorial - 18 - Creating Scatterplots with ggplot2
+
+# library(ggplot2)
+# head(diamonds)
+# class(diamonds)
+# diamonds[3]
+# data=as.data.frame(diamonds)
+# head(data)
+# 
+# qplot(data$carat,data$price,data)
+# 
+# qplot(data$carat,data$price,data,color=data$clarity)
+
+
+
+
+
+
